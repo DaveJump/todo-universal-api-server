@@ -1,0 +1,85 @@
+[2021-01-28T10:47:19.192] [ERROR] application - TypeError: Cannot read property 'getTodoList' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:7:32)
+    at TodosController.<anonymous> (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:32:41)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at TodosController.descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-28T10:48:02.484] [ERROR] application - TypeError: Cannot read property 'getTodoList' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:7:32)
+    at TodosController.<anonymous> (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:32:41)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at TodosController.descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-28T11:29:05.028] [ERROR] application - TypeError: ctx.$services.todos.getTodoList is not a function or its return value is not iterable
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:14:36)
+    at TodosController.<anonymous> (C:\Users\davej\private\todos-server-decor\src\decorators\controller.ts:38:41)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\decorators\controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\decorators\controller.ts:4:12)
+    at TodosController.descriptor.value (C:\Users\davej\private\todos-server-decor\src\decorators\controller.ts:36:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-28T11:43:30.882] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T11:46:26.484] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T11:47:11.133] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T11:47:44.719] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T14:24:11.539] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T14:37:50.699] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T14:38:58.845] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T14:54:00.337] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T14:56:02.196] [ERROR] application - TypeError: Cannot read property 'name' of undefined
+    at getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:14:22)
+    at TodosController.<anonymous> (C:\Users\davej\private\todos-server-decor\src\decorators\controller.ts:38:41)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\decorators\controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\decorators\controller.ts:4:12)
+    at TodosController.descriptor.value (C:\Users\davej\private\todos-server-decor\src\decorators\controller.ts:36:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-28T14:57:04.417] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T15:09:17.190] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T15:32:45.501] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T16:00:20.875] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T16:10:55.711] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T16:55:13.427] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T16:55:34.402] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T16:56:30.832] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-28T16:56:37.429] [ERROR] application - { status: 400, message: 'username is required' }

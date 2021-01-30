@@ -1,0 +1,55 @@
+[2021-01-15T11:37:02.164] [ERROR] application - TypeError: Cannot read property 'a' of undefined
+    at C:\Users\davej\private\todo-nuxt-server\controllers\todos.ts:7:17
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\controllers\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\controllers\todos.ts:4:12)
+    at getTodoList (C:\Users\davej\private\todo-nuxt-server\controllers\todos.ts:4:60)
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todo-nuxt-server\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:34:12
+[2021-01-15T11:39:38.417] [ERROR] application - TypeError: Cannot read property 'a' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todo-nuxt-server\services\todos.ts:27:17)
+    at C:\Users\davej\private\todo-nuxt-server\controllers\todos.ts:5:34
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\controllers\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\controllers\todos.ts:4:12)
+    at getTodoList (C:\Users\davej\private\todo-nuxt-server\controllers\todos.ts:4:60)
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todo-nuxt-server\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+[2021-01-15T12:28:25.553] [ERROR] application - TypeError: Cannot read property 'a' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:27:17)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:5:34
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:4:12)
+    at getTodoList (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:4:60)
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todo-nuxt-server\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+[2021-01-15T12:28:55.416] [ERROR] application - TypeError: Cannot read property 'a' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:27:17)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:5:34
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:4:12)
+    at getTodoList (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:4:60)
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todo-nuxt-server\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+[2021-01-15T12:31:12.528] [ERROR] application - TypeError: Cannot read property 'a' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:27:17)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:5:34
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:4:12)
+    at getTodoList (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:4:60)
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todo-nuxt-server\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)

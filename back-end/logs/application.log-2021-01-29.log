@@ -1,0 +1,2 @@
+[2021-01-29T18:20:44.875] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-29T18:25:00.858] [ERROR] application - { status: 400, message: 'username is required' }

@@ -1,0 +1,270 @@
+[2021-01-27T14:45:32.278] [ERROR] application - TypeError: Cannot read property 'todosService' of undefined
+    at getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:14:17)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:35
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:30:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-27T14:55:53.002] [ERROR] application - TypeError: Cannot read property 'getTodoList' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:14:30)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:35
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:30:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-27T14:56:46.021] [ERROR] application - TypeError: Cannot read property 'getTodoList' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:10:30)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:35
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:30:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-27T14:56:48.030] [ERROR] application - TypeError: Cannot read property 'getTodoList' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:10:30)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:35
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:30:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-27T14:57:28.770] [ERROR] application - TypeError: Cannot read property 'getTodoList' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:10:30)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:35
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:30:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-27T15:09:01.905] [ERROR] application - TypeError: Cannot read property 'getTodoList' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:10:30)
+    at TodosController.<anonymous> (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:35)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at TodosController.descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:30:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-27T15:10:11.424] [ERROR] application - TypeError: Cannot read property 'getTodoList' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:10:30)
+    at TodosController.<anonymous> (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:35)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at TodosController.descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:30:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-27T15:13:32.444] [ERROR] application - TypeError: Cannot read property 'getTodoList' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:10:30)
+    at TodosController.<anonymous> (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:35)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at TodosController.descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:30:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-27T15:13:37.297] [ERROR] application - TypeError: Cannot read property 'getTodoList' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:10:30)
+    at TodosController.<anonymous> (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:35)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at TodosController.descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:30:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-27T15:20:02.004] [ERROR] application - TypeError: Cannot read property 'getTodoList' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:14:30)
+    at TodosController.<anonymous> (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:35)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at TodosController.descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:30:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-27T15:22:37.188] [ERROR] application - TypeError: Cannot read property 'getTodoList' of undefined
+    at Object.getTodoList (C:\Users\davej\private\todos-server-decor\src\controllers\todos.ts:14:30)
+    at TodosController.<anonymous> (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:31:35)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:4:12)
+    at TodosController.descriptor.value (C:\Users\davej\private\todos-server-decor\src\utils\decorators.ts:30:16)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\Users\davej\private\todos-server-decor\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\Users\davej\private\todos-server-decor\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\davej\private\todos-server-decor\node_modules\koa-bodyparser\index.js:95:11)
+[2021-01-27T15:25:06.549] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-27T17:01:48.261] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-27T17:02:02.809] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-27T17:03:42.678] [ERROR] application - CastError: Cast to ObjectId failed for value "edit" at path "_id" for model "Todos"
+    at model.Query.exec (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:4358:21)
+    at model.Query.Query.then (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:4450:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  messageFormat: undefined,
+  stringValue: '"edit"',
+  kind: 'ObjectId',
+  value: 'edit',
+  path: '_id',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (C:\Users\davej\private\todos-server-decor\node_modules\bson\lib\bson\objectid.js:59:11)
+      at castObjectId (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schema\objectid.js:267:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schematype.js:1075:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schematype.js:1510:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schematype.js:1500:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schematype.js:1477:20)
+      at cast (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\cast.js:331:32)
+      at model.Query.Query.cast (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:4759:12)
+      at model.Query.Query._castConditions (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:1841:10)
+      at model.Query.<anonymous> (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:2098:8)
+      at model.Query._wrappedThunk [as _findOne] (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+      at C:\Users\davej\private\todos-server-decor\node_modules\kareem\index.js:369:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11)
+}
+[2021-01-27T17:03:58.027] [ERROR] application - CastError: Cast to ObjectId failed for value "edit" at path "_id" for model "Todos"
+    at model.Query.exec (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:4358:21)
+    at model.Query.Query.then (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:4450:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  messageFormat: undefined,
+  stringValue: '"edit"',
+  kind: 'ObjectId',
+  value: 'edit',
+  path: '_id',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (C:\Users\davej\private\todos-server-decor\node_modules\bson\lib\bson\objectid.js:59:11)
+      at castObjectId (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schema\objectid.js:267:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schematype.js:1075:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schematype.js:1510:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schematype.js:1500:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schematype.js:1477:20)
+      at cast (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\cast.js:331:32)
+      at model.Query.Query.cast (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:4759:12)
+      at model.Query.Query._castConditions (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:1841:10)
+      at model.Query.<anonymous> (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:2098:8)
+      at model.Query._wrappedThunk [as _findOne] (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+      at C:\Users\davej\private\todos-server-decor\node_modules\kareem\index.js:369:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11)
+}
+[2021-01-27T17:04:08.849] [ERROR] application - CastError: Cast to ObjectId failed for value "0" at path "_id" for model "Todos"
+    at model.Query.exec (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:4358:21)
+    at model.Query.Query.then (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:4450:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  messageFormat: undefined,
+  stringValue: '"0"',
+  kind: 'ObjectId',
+  value: '0',
+  path: '_id',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (C:\Users\davej\private\todos-server-decor\node_modules\bson\lib\bson\objectid.js:59:11)
+      at castObjectId (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schema\objectid.js:267:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schematype.js:1075:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schematype.js:1510:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schematype.js:1500:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\schematype.js:1477:20)
+      at cast (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\cast.js:331:32)
+      at model.Query.Query.cast (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:4759:12)
+      at model.Query.Query._castConditions (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:1841:10)
+      at model.Query.<anonymous> (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\query.js:2098:8)
+      at model.Query._wrappedThunk [as _findOne] (C:\Users\davej\private\todos-server-decor\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+      at C:\Users\davej\private\todos-server-decor\node_modules\kareem\index.js:369:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11)
+}
+[2021-01-27T17:16:59.415] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-27T17:49:16.017] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-27T17:49:38.518] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-27T17:52:22.306] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-27T18:25:37.792] [ERROR] application - { status: 400, message: 'username is required' }

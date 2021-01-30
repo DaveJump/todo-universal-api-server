@@ -1,0 +1,244 @@
+[2021-01-22T11:22:04.837] [ERROR] application - Error: username is required
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:32:23
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:4:12)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:31:48
+    at new Promise (<anonymous>)
+    at Object.getUserByName (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:31:10)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:9:34
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:4:12)
+    at getUserByName (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:8:62)
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todo-nuxt-server\node_modules\koa-router\lib\router.js:372:16
+[2021-01-22T11:23:17.346] [ERROR] application - Error: username is required
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:41:32
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:4:12)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:40:48
+    at new Promise (<anonymous>)
+    at Object.addNewTodo (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:40:10)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:13:34
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:4:12)
+    at addNewTodo (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:12:59)
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todo-nuxt-server\node_modules\koa-router\lib\router.js:372:16
+[2021-01-22T11:24:09.660] [ERROR] application - Error: username is required
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:44:21
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:4:12)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:42:48
+    at new Promise (<anonymous>)
+    at Object.addNewTodo (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:42:10)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:13:34
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:4:12)
+    at addNewTodo (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:12:59)
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todo-nuxt-server\node_modules\koa-router\lib\router.js:372:16
+[2021-01-22T14:51:24.643] [ERROR] application - Error: username is required
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:34:27
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:4:12)
+    at Object.addNewTodo (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:31:61)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:13:34
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:4:12)
+    at addNewTodo (C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:12:59)
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todo-nuxt-server\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\davej\private\todo-nuxt-server\node_modules\koa-compose\index.js:34:12
+[2021-01-22T15:10:05.267] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-22T15:12:11.226] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-22T15:12:57.035] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-22T15:14:51.070] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-22T15:19:23.844] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-22T15:19:30.555] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-22T15:19:32.534] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-22T15:19:53.265] [ERROR] application - CastError: Cast to Boolean failed for value "2" at path "done" for model "Todos"
+    at model.Query.exec (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:4358:21)
+    at Function.<anonymous> (C:\Users\davej\private\todo-nuxt-server\src\models\todos.ts:18:29)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\models\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\models\todos.ts:4:12)
+    at Function.getTodoListByUser (C:\Users\davej\private\todo-nuxt-server\src\models\todos.ts:22:16)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:23:37
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:4:12)
+    at Object.getTodoListByUser (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:15:68)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:5:34
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:8:71 {
+  messageFormat: undefined,
+  stringValue: '"2"',
+  kind: 'Boolean',
+  value: 2,
+  path: 'done',
+  reason: CastError: Cast to boolean failed for value "2" at path "undefined"
+      at castBoolean (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\cast\boolean.js:28:9)
+      at SchemaBoolean.cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schema\boolean.js:207:12)
+      at SchemaBoolean.SchemaType.applySetters (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1090:12)
+      at SchemaBoolean.SchemaType._castForQuery (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1525:15)
+      at SchemaBoolean.castForQuery (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schema\boolean.js:236:15)
+      at SchemaBoolean.SchemaType.castForQueryWrapper (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1492:20)
+      at cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\cast.js:331:32)
+      at model.Query.Query.cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:4759:12)
+      at model.Query.Query._castConditions (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:1841:10)
+      at model.Query.<anonymous> (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:1868:8)
+      at model.Query._wrappedThunk [as _find] (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+      at C:\Users\davej\private\todo-nuxt-server\node_modules\kareem\index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+    stringValue: '"2"',
+    messageFormat: undefined,
+    kind: 'boolean',
+    value: 2,
+    path: undefined,
+    reason: undefined
+  }
+}
+[2021-01-22T16:08:43.341] [ERROR] application - CastError: Cast to Boolean failed for value "2" at path "done" for model "Todos"
+    at model.Query.exec (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:4358:21)
+    at Function.<anonymous> (C:\Users\davej\private\todo-nuxt-server\src\models\todos.ts:18:29)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\models\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\models\todos.ts:4:12)
+    at Function.getTodoListByUser (C:\Users\davej\private\todo-nuxt-server\src\models\todos.ts:22:16)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:23:37
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:4:12)
+    at Object.getTodoListByUser (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:15:68)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:5:34
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:8:71 {
+  messageFormat: undefined,
+  stringValue: '"2"',
+  kind: 'Boolean',
+  value: 2,
+  path: 'done',
+  reason: CastError: Cast to boolean failed for value "2" at path "undefined"
+      at castBoolean (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\cast\boolean.js:28:9)
+      at SchemaBoolean.cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schema\boolean.js:207:12)
+      at SchemaBoolean.SchemaType.applySetters (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1090:12)
+      at SchemaBoolean.SchemaType._castForQuery (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1525:15)
+      at SchemaBoolean.castForQuery (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schema\boolean.js:236:15)
+      at SchemaBoolean.SchemaType.castForQueryWrapper (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1492:20)
+      at cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\cast.js:331:32)
+      at model.Query.Query.cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:4759:12)
+      at model.Query.Query._castConditions (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:1841:10)
+      at model.Query.<anonymous> (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:1868:8)
+      at model.Query._wrappedThunk [as _find] (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+      at C:\Users\davej\private\todo-nuxt-server\node_modules\kareem\index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+    stringValue: '"2"',
+    messageFormat: undefined,
+    kind: 'boolean',
+    value: 2,
+    path: undefined,
+    reason: undefined
+  }
+}
+[2021-01-22T16:33:34.493] [ERROR] application - CastError: Cast to ObjectId failed for value "0" at path "_id" for model "Todos"
+    at model.Query.exec (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:4358:21)
+    at model.Query.Query.then (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:4450:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  messageFormat: undefined,
+  stringValue: '"0"',
+  kind: 'ObjectId',
+  value: '0',
+  path: '_id',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (C:\Users\davej\private\todo-nuxt-server\node_modules\bson\lib\bson\objectid.js:59:11)
+      at castObjectId (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schema\objectid.js:279:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1090:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1525:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1515:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1492:20)
+      at cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\cast.js:331:32)
+      at model.Query.Query.cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:4759:12)
+      at model.Query.Query._castConditions (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:1841:10)
+      at model.Query.<anonymous> (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:1868:8)
+      at model.Query._wrappedThunk [as _find] (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+      at C:\Users\davej\private\todo-nuxt-server\node_modules\kareem\index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11)
+}
+[2021-01-22T16:34:27.831] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-22T16:35:02.841] [ERROR] application - CastError: Cast to ObjectId failed for value "600a7a41afd7d9368056c9" at path "_id" for model "Todos"
+    at model.Query.exec (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:4358:21)
+    at model.Query.Query.then (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:4450:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  messageFormat: undefined,
+  stringValue: '"600a7a41afd7d9368056c9"',
+  kind: 'ObjectId',
+  value: '600a7a41afd7d9368056c9',
+  path: '_id',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (C:\Users\davej\private\todo-nuxt-server\node_modules\bson\lib\bson\objectid.js:59:11)
+      at castObjectId (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schema\objectid.js:279:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1090:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1525:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1515:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1492:20)
+      at cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\cast.js:331:32)
+      at model.Query.Query.cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:4759:12)
+      at model.Query.Query._castConditions (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:1841:10)
+      at model.Query.<anonymous> (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:2098:8)
+      at model.Query._wrappedThunk [as _findOne] (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+      at C:\Users\davej\private\todo-nuxt-server\node_modules\kareem\index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11)
+}
+[2021-01-22T16:43:16.028] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-22T16:45:15.339] [ERROR] application - Error: Can't use $like with String.
+    at SchemaString.castForQuery (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schema\string.js:684:13)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\schematype.js:1482:22)
+    at cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\cast.js:310:39)
+    at model.Query.Query.cast (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:4759:12)
+    at model.Query.Query._castConditions (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:1841:10)
+    at model.Query.<anonymous> (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\query.js:1868:8)
+    at model.Query._wrappedThunk [as _find] (C:\Users\davej\private\todo-nuxt-server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\davej\private\todo-nuxt-server\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-01-22T17:04:33.194] [ERROR] application - { status: 400, message: 'username is required' }
+[2021-01-22T17:31:53.801] [ERROR] application - TypeError: this.deleteById is not a function
+    at Function.<anonymous> (C:\Users\davej\private\todo-nuxt-server\src\models\todos.ts:37:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\models\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\models\todos.ts:4:12)
+    at Function.deleteTodo (C:\Users\davej\private\todo-nuxt-server\src\models\todos.ts:42:16)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:79:32
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:4:12)
+    at Object.deleteTodo (C:\Users\davej\private\todo-nuxt-server\src\services\todos.ts:74:61)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:25:34
+    at Generator.next (<anonymous>)
+    at C:\Users\davej\private\todo-nuxt-server\src\controllers\todos.ts:8:71
+    at new Promise (<anonymous>)
+[2021-01-22T17:33:11.384] [ERROR] application - { status: 400, message: 'username is required' }
