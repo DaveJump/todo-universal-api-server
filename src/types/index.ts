@@ -13,15 +13,21 @@ export type ControllerActionParameters<T = any> = Parameters<ControllerActionWit
 
 export type ServiceActionParameters<T = any> = Parameters<ControllerActionWithParams<T>>
 
-export type MethodDecorator = (
-  target: any,
-  propertyKey: string | symbol,
-  descriptor: TypedPropertyDescriptor<ControllerActionWithParams>
-) => any
-
-export interface ClassFactory<T> extends Function {
-  new (...args: any[]): T
+export interface TypedPropertyDescriptor<T> {
+  enumerable?: boolean
+  configurable?: boolean
+  writable?: boolean
+  value?: T
+  get?: () => T
+  set?: (value: T) => void
 }
+export interface ConstructableFunction<T = any> extends Function {
+  new(...args: any[]): T
+}
+export type ClassDecorator<T = any> = (target: ConstructableFunction<T>) => ConstructableFunction<T> | void
+export type PropertyDecorator = (target: Object, propertyKey: string | symbol) => void
+export type MethodDecorator<T = any> = (target: Object, propertyKey: string | symbol, descriptor: TypedPropertyDescriptor<T>) => TypedPropertyDescriptor<T> | void
+export type ParameterDecorator = (target: Object, propertyKey: string | symbol, parameterIndex: number) => void
 
 export type HttpMethods =
   | 'get'

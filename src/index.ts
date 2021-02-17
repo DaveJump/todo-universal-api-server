@@ -4,7 +4,6 @@ import logger from 'koa-logger'
 import router from './router'
 import { accessLogger, appLogger } from './utils/logger'
 import errorHandler from './middlewares/errorHandler'
-import { injectProperties } from './middlewares/injections'
 import cors from 'koa2-cors'
 import chalk from 'chalk'
 import connectDB from './config/db'
@@ -26,7 +25,6 @@ async function init() {
   app.use(accessLogger())
   app.use(logger())
   app.use(errorHandler())
-  app.use(injectProperties())
   app.use(bodyParser())
   app.use(cors())
   app.use(router.routes()).use(router.allowedMethods())

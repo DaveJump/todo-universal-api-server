@@ -1,4 +1,4 @@
 import UsersController from '@/controllers/users'
 import { controllers } from '@/decorators/controller'
 
-export default controllers[UsersController.name].routes
+export default controllers.get(UsersController.name)?.routes

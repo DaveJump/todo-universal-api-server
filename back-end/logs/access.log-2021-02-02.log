@@ -1,0 +1,5 @@
+[2021-02-02T16:55:21.284] [INFO] access - ::ffff:127.0.0.1 - - "GET /todo/list?username=davejump HTTP/1.1" 200 273 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+[2021-02-02T16:55:42.346] [INFO] access - ::ffff:127.0.0.1 - - "GET /todo/add HTTP/1.1" 500 118 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+[2021-02-02T16:57:46.084] [INFO] access - ::ffff:127.0.0.1 - - "POST /todo/add HTTP/1.1" 200 200 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+[2021-02-02T16:57:59.657] [INFO] access - ::ffff:127.0.0.1 - - "GET /todo/list?username=davejump HTTP/1.1" 200 437 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+[2021-02-02T17:00:01.833] [INFO] access - ::ffff:127.0.0.1 - - "GET /todo/list?username=davejump HTTP/1.1" 200 437 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"

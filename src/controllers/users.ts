@@ -1,8 +1,13 @@
 import { ControllerActionParameters } from '@/types'
 import { Controller, Get, Post } from '@/decorators/controller'
+import UsersService from '@/services/users'
+import { Inject } from '@/decorators/injectable'
 
 @Controller
 class UsersController {
+  @Inject()
+  private UsersService!: UsersService
+
   /**
    * @swagger
    *
@@ -19,7 +24,7 @@ class UsersController {
    */
   @Get('/user')
   getUserByName(...[ctx, params]: ControllerActionParameters) {
-    return ctx.$service.users.getUserByName(ctx, params)
+    return this.UsersService.getUserByName(ctx, params)
   }
 
   /**
@@ -38,7 +43,7 @@ class UsersController {
    */
   @Post('/user/register')
   registerUser(...[ctx, params]: ControllerActionParameters) {
-    return ctx.$service.users.registerUser(ctx, params)
+    return this.UsersService.registerUser(ctx, params)
   }
 }
 

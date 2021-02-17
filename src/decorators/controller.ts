@@ -1,12 +1,12 @@
 import { Context } from 'koa'
-import { MethodDecorator, Dictionary, ClassFactory, Route } from '@/types'
+import { MethodDecorator, ConstructableFunction, Route, ControllerActionWithParams } from '@/types'
 import { baseSuccessSchema } from '@/utils'
 import 'reflect-metadata'
 
 export const ReqPathMetadataKey = Symbol('router:reqPath')
 export const ReqMethodMetadataKey = Symbol('router:reqMethod')
 
-export const controllers: Dictionary<any> = {}
+export const controllers = new Map<string, { inst: any, routes: Route[] }>()
 
 export const Get = (path?: string) => handler('get', path)
 
@@ -14,15 +14,15 @@ export const Post = (path?: string) => handler('post', path)
 
 export const Delete = (path?: string) => handler('delete', path)
 
-export const Controller = <T>(target: ClassFactory<T>) => {
+export const Controller = <T>(target: ConstructableFunction<T>) => {
   const inst = new target()
-  controllers[target.name] = {
+  controllers.set(target.name, {
     inst,
     routes: genRoutesByController(inst)
-  }
+  })
 }
 
-const handler: (method: string, path?: string) => MethodDecorator = (method, path) => (target, propertyKey, descriptor) => {
+const handler: (method: string, path?: string) => MethodDecorator<ControllerActionWithParams> = (method, path) => (target, propertyKey, descriptor) => {
   path = path || '/'
 
   Reflect.defineMetadata(ReqMethodMetadataKey, method, target, propertyKey)

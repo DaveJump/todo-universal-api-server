@@ -1,8 +1,13 @@
 import { ControllerActionParameters } from '@/types'
 import { Controller, Get, Post, Delete } from '@/decorators/controller'
+import { Inject } from '@/decorators/injectable'
+import TodosService from '@/services/todos'
 
 @Controller
 class TodosController {
+  @Inject()
+  private TodosService!: TodosService
+
   /**
    * @swagger
    *
@@ -34,7 +39,7 @@ class TodosController {
    */
   @Get('/todo/list')
   getTodoList(...[ctx, params]: ControllerActionParameters) {
-    return ctx.$services.todos.getTodoList(ctx, params)
+    return this.TodosService.getTodoList(ctx, params)
   }
 
   /**
@@ -65,7 +70,7 @@ class TodosController {
    */
   @Post('/todo/add')
   addNewTodo(...[ctx, params]: ControllerActionParameters) {
-    return ctx.$services.todos.addNewTodo(ctx, params)
+    return this.TodosService.addNewTodo(ctx, params)
   }
 
   /**
@@ -84,7 +89,7 @@ class TodosController {
    */
   @Get('/todo/:id')
   getTodoDetail(...[ctx, params]: ControllerActionParameters) {
-    return ctx.$services.todos.getTodoDetail(ctx, params)
+    return this.TodosService.getTodoDetail(ctx, params)
   }
 
   /**
@@ -119,7 +124,7 @@ class TodosController {
    */
   @Post('/todo/edit/:id')
   editTodo(...[ctx, params]: ControllerActionParameters) {
-    return ctx.$services.todos.editTodo(ctx, params)
+    return this.TodosService.editTodo(ctx, params)
   }
 
   /**
@@ -138,7 +143,7 @@ class TodosController {
    */
   @Delete('/todo/delete/:id')
   deleteTodo(...[ctx, params]: ControllerActionParameters) {
-    return ctx.$services.todos.deleteTodo(ctx, params)
+    return this.TodosService.deleteTodo(ctx, params)
   }
 }
 

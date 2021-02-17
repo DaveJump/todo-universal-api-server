@@ -2,7 +2,9 @@ import { Todo } from '@/types/model'
 import { ServiceActionParameters } from '@/types'
 import { genParamsRequiredErr } from '@/utils'
 import { TodosModel } from '@/models/todos'
+import { Injectable } from '@/decorators/injectable'
 
+@Injectable()
 export default class TodosService {
   async getTodoList(
     ...[ctx, params]: ServiceActionParameters<{ username: string, done: string | number | boolean, title: string }>
